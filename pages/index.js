@@ -67,10 +67,13 @@ export async function getStaticProps() {
     .then(
       (res) => res.json()
     )
+
+
   return {
     props: {
       expoloreData,
-      cardsData
+      cardsData,
     }
   }
 }
+
